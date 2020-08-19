@@ -14,5 +14,5 @@ test('component renders with data', () => {
 
     rerender(<Episodes episodes={[mockShow]}/>)
 
-    expect(queryAllByTestId('show')).toHaveLength(2);
+    expect(queryAllByTestId('show')).toHaveLength(1);
 })
